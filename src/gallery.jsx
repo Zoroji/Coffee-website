@@ -5,7 +5,7 @@ import gallery2 from './assets/gallery2.jpg';
 import coffeeVideo from './assets/coffeeVideo.mp4';
 function Gallery() {
     return(
-        <section id='gallery'>
+        <section id='Magazine'>
         <div className="container-fluid d-flex justify-content-center align-items-center flex-column">
         <p className='mt-3 fs-5 fw-bold text-secondary mt-5'>BUY 2 MUGS GET A COFFEE MAGAZINE FREE!!</p>
         <div className="container-fluid d-flex justify-content-center align-items-center">

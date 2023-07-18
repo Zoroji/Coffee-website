@@ -13,7 +13,7 @@ function News()
     const heading3 = 'Does coffee increase the risk of anxiety?';
     const subHeading3 = 'Yes, coffee and other caffeinated beverages can increase the risk of anxiety, especially in sensitive individuals or those who consume large amounts of caffeine regularly.';
     return(
-       <div className="container-fluid  d-flex justify-content-center align-items-center my-5 flex-column">
+       <div id='Blog' className="container-fluid  d-flex justify-content-center align-items-center my-5 flex-column">
             <p className=' text-body-tertiary mt-5 fw-semibold' style={{fontFamily:'math'}}>Whats behind the mug</p>
             <div className="container bg-white d-flex flex-row gap-0" style={{height:'35rem',width:'60rem'}}>
             <NewsCard img ={news1} heading = {heading1} subHeading = {subHeading1} date = '21 may 2020' />

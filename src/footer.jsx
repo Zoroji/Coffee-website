@@ -7,7 +7,7 @@ import { faGem,faLightbulb } from '@fortawesome/free-regular-svg-icons';
 function Footer()
 {
  return(
-    <footer className=' container-fluid bg-black d-flex text-white' style={{height:'30rem'}}>
+    <footer id='Work' className=' container-fluid bg-black d-flex text-white' style={{height:'30rem'}}>
        <img src="https://images.unsplash.com/photo-1487720955747-a15f8c166e9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" 
         className='w-50 '
        />

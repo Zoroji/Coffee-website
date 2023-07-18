@@ -4,8 +4,8 @@ import logo from './assets/logo.png';
 const Navbar = () => {
   return (
     
-<div className='nav-bar'>
-      <nav className="navbar navbar-expand-lg text-danger " style={{ backgroundColor: 'white' }}>
+<div className='nav-bar fixed-top'>
+      <nav className="navbar navbar-expand-lg  " style={{ backgroundColor: 'white' }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={logo} alt="logo" style={{ height: '40px', width: 'auto' }} />
@@ -19,22 +19,20 @@ const Navbar = () => {
                 <a className="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item mx-5">
-                <a className="nav-link" href="#">OUR PRODUCT</a>
+                <a className="nav-link" href='#product'>Our product</a>
               </li>
               <li className="nav-item mx-5">
-                <a className="nav-link" href="#">ABOUT</a>
+                <a className="nav-link" href="#Magazine">Magazine</a>
               </li>
             </ul>
             <ul className="navbar-nav flex-row gap-3">
               <li className="nav-item mx-5">
-                <a className="nav-link" href="#">CONTACT</a>
+                <a className="nav-link" href="#Blog">Blog</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-5" href="#">WORK</a>
+                <a className="nav-link mx-5" href="#Work">Work</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#"><i className="fa-solid fa-mug"></i></a>
-              </li>
+             
             </ul>
           </div>
         </div>

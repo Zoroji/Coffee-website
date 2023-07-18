@@ -7,10 +7,11 @@ function AddSection() {
     const url2 = "https://www.happygiftmart.com/image/cache/catalog/product-3049/lHVUYMOt9g-41BMw21pPtL-630x552.jpg";
     const url3 = "https://m.media-amazon.com/images/I/81rRhSiqITL.jpg";
   return (
-    <div className="container my-4" style={{background:'#edeff5',width:'80%'}}>
-      <div className="text">Discover your perfect cup of bliss at our artisanal coffee haven.</div>
+    <section id="product">
+<div className="container my-4" style={{background:'white',width:'80%'}}>
+      <div className="text fw-bold">Discover your perfect cup of bliss at our artisanal coffee haven.</div>
       <div className="tray rounded">
-        <div className="p-5 d-flex justify-content-center align-items-center gap-4" style={{background:'#e0e2e7'}}>
+        <div className="p-5 d-flex justify-content-center align-items-center gap-4" >
         <Cards
             src = {url1}
             cupName = "Mud Cup"
@@ -34,6 +35,8 @@ function AddSection() {
         </div>
       </div>
     </div>
+    </section>
+    
   );
 }
 
